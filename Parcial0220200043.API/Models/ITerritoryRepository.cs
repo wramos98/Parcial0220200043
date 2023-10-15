@@ -3,7 +3,7 @@
     public interface ITerritoryRepository
     {
         Task<bool> Delete(int id);
-        Task<IEnumerable<Territory>> GetUsers();
+        Task<IEnumerable<Territory>> GetTerrytory();
         Task<bool> Insert(Territory territory);
         Task<bool> Update(Territory territory);
     }

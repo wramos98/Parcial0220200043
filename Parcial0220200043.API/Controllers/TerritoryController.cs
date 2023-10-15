@@ -18,7 +18,7 @@ namespace Parcial0220200043.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var territory = await _territoryRepository.GetTerritory()
+            var territory = await _territoryRepository.GetTerrytory();
             return Ok(territory);
         }
 
